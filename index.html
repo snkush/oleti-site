@@ -31,7 +31,7 @@
 </script>
 <script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*"},"eagerness":"moderate"}]}</script>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "MusicGroup", "name": "Oleti", "url": "https://snk-records.com/oleti", "image": "https://snk-records.com/photos/covers/candy.jpg", "genre": ["Pop", "Soul", "Rock"], "description": "Pop, soul, rock, mélodie : Oleti refuse une seule case. Baigné dans la musique depuis l'enfance, présent au label depuis le premier jour. Aussi à l'aise derrière le micro qu'en direction artistique pour les autres.", "foundingLocation": {"@type": "Place", "name": "Marseille"}, "recordLabel": {"@type": "Organization", "name": "SNK Records", "url": "https://snk-records.com"}, "track": [{"@type": "MusicRecording", "name": "Candy", "url": "https://snk-records.com/oleti/candy"}, {"@type": "MusicRecording", "name": "Thunders", "url": "https://snk-records.com/oleti/thunders"}, {"@type": "MusicRecording", "name": "The End", "url": "https://snk-records.com/oleti/the-end"}, {"@type": "MusicRecording", "name": "Love", "url": "https://snk-records.com/oleti/love"}], "sameAs": ["https://open.spotify.com/artist/6CUYouy7xRgz76qobGNBeQ", "https://music.apple.com/fr/artist/oleti/1786499835", "https://instagram.com/oleti.snk"]}
+{"@context": "https://schema.org", "@type": "MusicGroup", "name": "Oleti", "url": "https://snk-records.com/oleti", "image": "https://snk-records.com/photos/covers/candy.jpg", "genre": ["Pop", "Soul", "Rock"], "description": "Pop, soul, rock, mélodie : Oleti refuse une seule case. Baigné dans la musique depuis l'enfance, chez SNK Records depuis le premier jour. Aussi à l'aise derrière le micro qu'en direction artistique pour les autres.", "foundingLocation": {"@type": "Place", "name": "Marseille"}, "recordLabel": {"@type": "Organization", "name": "SNK Records", "url": "https://snk-records.com"}, "track": [{"@type": "MusicRecording", "name": "Candy", "url": "https://snk-records.com/oleti/candy"}, {"@type": "MusicRecording", "name": "Thunders", "url": "https://snk-records.com/oleti/thunders"}, {"@type": "MusicRecording", "name": "The End", "url": "https://snk-records.com/oleti/the-end"}, {"@type": "MusicRecording", "name": "Love", "url": "https://snk-records.com/oleti/love"}], "sameAs": ["https://open.spotify.com/artist/6CUYouy7xRgz76qobGNBeQ", "https://music.apple.com/fr/artist/oleti/1786499835", "https://instagram.com/oleti.snk"]}
 </script>
 <style>
 /* --tint : couleur tirée de la pochette du dernier projet (calculée au chargement), elle teinte toute la page */
@@ -239,6 +239,9 @@ footer a:hover{color:var(--red)}
 .clip.on i{display:none}
 .clips p{display:flex;justify-content:space-between;gap:10px;margin-top:10px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
 .clips p a{color:var(--muted);flex:none}.clips p a:hover{color:var(--red)}
+/* Logo SNK posé contre le nom, comme une signature du label */
+.hero .id h1 .nm{white-space:nowrap}
+.hero .id h1 .sig{position:static;inset:auto;animation:none;transform:none;opacity:1;object-fit:contain;display:inline-block;vertical-align:top;height:.3em;width:auto;margin:.03em 0 0 .06em;filter:drop-shadow(0 4px 14px rgba(0,0,0,.5))}
 .subs{display:flex;align-items:center;gap:12px;margin-top:6px;padding:12px 12px 12px 16px;border-radius:16px;background:linear-gradient(120deg,rgba(214,0,43,.22),var(--card) 70%);border:1px solid rgba(214,0,43,.45);transition:border-color .2s,transform .25s var(--ease)}
 .subs svg{width:28px;height:28px;flex:none;color:#ff0033}
 .subs span{flex:1;min-width:0;font-size:12px;line-height:1.4;color:rgba(237,233,225,.84)}.subs strong{display:block;font-weight:500;font-size:14px;color:var(--paper)}
@@ -274,7 +277,7 @@ footer a:hover{color:var(--red)}
     <a class="tag" href="https://snk-records.com/sorties" data-k="label-sorties">Le label</a>
   </div>
   <div class="id">
-    <h1>Oleti</h1>
+    <h1><span class="nm">Oleti<img class="sig" src="/photos/snk-logo.svg" alt="" aria-hidden="true" width="356" height="200"></span></h1>
     <p class="role">Pop<b>·</b>Soul<b>·</b>Rock<b>·</b>Marseille</p>
   </div>
 </header>
@@ -294,7 +297,7 @@ footer a:hover{color:var(--red)}
     <a class="pf" data-k="page-sortie" href="/candy"><span class="ic"><svg aria-hidden="true"><use href="#play"/></svg></span><span class="lb">Page du son<em>Toutes les plateformes</em></span><svg class="ar" aria-hidden="true"><use href="#ar"/></svg></a>
   </nav>
 
-  <p class="bio">Pop, soul, rock, mélodie : Oleti refuse une seule case. Baigné dans la musique depuis l&#x27;enfance, présent au label depuis le premier jour. Aussi à l&#x27;aise derrière le micro qu&#x27;en direction artistique pour les autres.</p>
+  <p class="bio">Pop, soul, rock, mélodie : Oleti refuse une seule case. Baigné dans la musique depuis l&#x27;enfance, chez SNK Records depuis le premier jour. Aussi à l&#x27;aise derrière le micro qu&#x27;en direction artistique pour les autres.</p>
 
   <h2>Suivre Oleti</h2>
   <nav class="follow" aria-label="Réseaux sociaux">
